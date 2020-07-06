@@ -1,3 +1,90 @@
-.navbar img{
-    width: 100px;
+body{
+    scroll-behavior: smooth;
+}
+
+img{
+    width: 120px;
+}
+.pinkish-bg{
+    background-color: #fceae8;
+}
+.slideshow , .categories {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#shoe , #bags{
+    margin-top: 100px;
+    margin-bottom: 50px;
+   
+}
+.bag img{
+    height: 250px;
+}
+.carousel-item{
+   padding:  20px 40px;
+   border-radius: 20px;
+}
+
+.dark-pink-text{
+    color: #FF136f;
+}
+.buy-btn{
+    background: linear-gradient(to bottom,#ff589b 0%, #FF136f 100%);
+    padding: 9px 25px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.cat1 , .cat2 , .cat3{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    font-size: 30px;
+    color: #fff;
+}
+ 
+
+
+.cat1{
+    background: linear-gradient(to right, #ffa132 ,#ffd019);
+}
+.cat2{
+    background: linear-gradient(to right, #ff1c74 , #ff4e95);
+}
+.cat3{
+    background: linear-gradient(45deg,#427bfe, blue);
+}
+
+.card{
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px lightslategrey;
+}
+.black-btn{
+    background-color: black;
+    padding: 9px 25px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#subscribe{
+    height: 400px;
+    margin-bottom: 90px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+footer{
+    color: lightslategrey;
+    text-align: center;
+}
+.grey-text{
+    color: lightslategrey
 }
